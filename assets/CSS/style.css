@@ -1,0 +1,28 @@
+#container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: repeat(3, 50px);
+}
+.item {
+    background-color: #ffc6c6;
+    text-align: center;
+}
+.header {
+    grid-area: 1 / 1 / 1 / span 3;
+    border-bottom: 3px solid #ff5151 ;
+}
+.menu {
+    grid-area: 2 / 1 / span 3;
+    border-right: 3px solid #ff5151;
+}
+.main {
+    grid-area: 2 / 2;
+    border-right: 3px solid #ff5151;
+}
+.right {
+    grid-area: 2 / 3;
+}
+.footer {
+    grid-column: 2 / span 3;
+    border-top: 3px solid #ff5151;
+}

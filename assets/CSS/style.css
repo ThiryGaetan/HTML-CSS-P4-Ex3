@@ -26,3 +26,29 @@
     grid-column: 2 / span 3;
     border-top: 3px solid #ff5151;
 }
+@media screen and (max-width: 640px) {
+    #container {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, 50px);
+    }
+    .item {
+        grid-column: 1 / 1;
+        border: none;
+    }
+    .header {
+        grid-row: 1 / 1;
+        border-bottom: 3px solid #ff5151;
+    }
+    .menu {
+        grid-row: 2 / 2;
+        border-bottom: 3px solid #ff5151;
+    }
+    .main {
+        grid-row: 3 / 3;
+        border-bottom: 3px solid #ff5151;
+    }
+    .right {
+        grid-row: 4 / 4;
+        border-bottom: 3px solid #ff5151;
+    }
+}

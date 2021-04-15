@@ -13,19 +13,19 @@
     background-color: #ffc6c6;
     text-align: center;
 }
-.header {
+#header {
     grid-area: header;
 }
-.menu {
+#menu {
     grid-area: menu;
 }
-.main {
+#main {
     grid-area: main;
 }
-.right {
+#right {
     grid-area: right;
 }
-.footer {
+#footer {
     grid-column: footer;
 }
 @media screen and (max-width: 640px) {
